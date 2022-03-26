@@ -12,6 +12,9 @@ function App() {
     <div className="App">
       <button onClick={()=>setComponent(!component)}>change component</button>
       {component?<CheckScreen/>:<ScreenDetection/>}
+      <div>
+        <h1>Andrea Soto Delgado</h1>
+      </div>
     </div>
   );
 }
